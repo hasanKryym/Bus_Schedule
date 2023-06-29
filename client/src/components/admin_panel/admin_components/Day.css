@@ -1,0 +1,73 @@
+.admin_days-articel {
+  margin: 2rem 1rem;
+  padding: 0 1rem;
+}
+
+.admin_days-articel_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.show_detail-btn {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  background: #007a5a;
+  padding: 8px 14px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+.show_detail-btn:hover {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+.time_container {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+}
+
+.time_container .show_detail-btn_time {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  background: #007a5a;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+.time_container .show_detail-btn_time a {
+  padding: 10px;
+  color: #eee;
+  text-decoration: none;
+  display: block;
+}
+
+.admin_days-articel .time_article-container {
+  padding: 1rem 1.2rem;
+}
+.admin_days-articel .time_article-container button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.admin_days-articel .time_article-container a {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+}
+
+.time_container {
+  margin: 2rem 1rem;
+}

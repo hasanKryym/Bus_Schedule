@@ -1,0 +1,34 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background: red;
+}
+.first {
+  border-top-left-radius: 8px;
+}
+.last {
+  border-top-right-radius: 8px;
+}
+footer a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  background: #222;
+  font-size: 22px;
+}
+
+footer a:hover {
+  background: #444;
+  transition: var(--transition);
+}

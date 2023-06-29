@@ -1,0 +1,102 @@
+.body_container {
+  padding-bottom: 2rem;
+}
+
+.schedule_container {
+  margin: 2rem 0.5rem;
+}
+
+.schedule_container h2 {
+  text-align: center;
+}
+.schedule_article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: 2rem 0.5rem; */
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 1rem 0;
+  margin: 0.5rem 0;
+}
+
+.schedule_date {
+  padding: 0.5rem 0;
+}
+.schedule_date h2 {
+  font-weight: 600;
+}
+.schedule_date p {
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.login_btn {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  background: #007a5a;
+  padding: 8px 14px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+.login_btn:hover {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+.schedule_register {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  background: #007a5a;
+  padding: 8px 14px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+.schedule_register:hover {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+.schedule_unregister {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  background: #da0021;
+  padding: 8px 14px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+.schedule_unregister:hover {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+.not_loggedIn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.not_loggedIn-container a {
+  text-decoration: none;
+  margin-top: 1rem;
+}

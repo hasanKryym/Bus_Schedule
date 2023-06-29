@@ -1,0 +1,10 @@
+.delete_user-btn {
+  border: none;
+  color: rgb(206, 0, 0);
+  padding: 0.5rem;
+  background: transparent;
+}
+
+.admin_user {
+  color: red;
+}
